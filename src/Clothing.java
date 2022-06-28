@@ -6,10 +6,6 @@ public abstract class Clothing implements Buyable, Comparable<Clothing> {
         return price;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
     public int compareTo(Clothing c) {
         return (Double.compare(this.price, c.price));
     }
