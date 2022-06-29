@@ -1,5 +1,7 @@
 # Store
 
+The video explanation for this project can be found [here](https://youtu.be/tOVO1LysG5g).
+
 - Create a store. The store sells shirts, pants, and suits (each their own class).
 
 - Have a way to keep track of inventory and orders.
