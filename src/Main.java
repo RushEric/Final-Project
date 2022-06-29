@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner k = new Scanner(System.in);
-        Customer c = new Customer();
-        Clerk cl = new Clerk();
-        Inventory b = new Inventory();
+        Scanner keyboard = new Scanner(System.in);
+        Customer customer = new Customer();
+        Clerk clerk = new Clerk();
+        Inventory inventory = new Inventory();
 
         boolean again = true;
         while (again) {
@@ -20,14 +20,14 @@ public class Main {
                     Other Number: Quit
                     ---------------------
                     """);
-            int input = Integer.parseInt(k.nextLine());
+            int input = Integer.parseInt(keyboard.nextLine());
             switch (input) {
-                case 1 -> c.addToCart(b.newItem());
-                case 2 -> c.clearCart();
-                case 3 -> c.showCart();
-                case 4 -> b.remove(c);
-                case 5 -> c.sortCart();
-                case 6 -> cl.processOrder(c);
+                case 1 -> customer.addToCart(inventory.newItem());
+                case 2 -> customer.clearCart();
+                case 3 -> customer.showCart();
+                case 4 -> inventory.remove(customer);
+                case 5 -> customer.sortCart();
+                case 6 -> clerk.processOrder(customer);
                 default -> again = false;
             }
         }
