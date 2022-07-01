@@ -1,5 +1,7 @@
 ## Restaurant Project
 
+**The video explanation for this project can be found [here](https://youtu.be/8NIkwnwVhhc).**
+
 I had a lot of issues creating this project, most of which had to do with not completely knowing the different aspects of a thread. Many things needed to be figured out on the fly with the help of hours of YouTube watching. When I did get my bearings on Threads and its methods, the main issue that came up was with my Table.
 
 I added a wait() and a notifyAll() to my Table class but only for its getter and setter. The find method (which is responsible for finding and returning an open spot in the array) has the wait() method. In this method, if an open spot isn’t found it’d return a -1. This is a problem because the index value this method returns is used elsewhere and caused many errors. 
