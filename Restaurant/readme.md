@@ -1,4 +1,4 @@
-## Restaurant Project
+# Restaurant Project
 
 **The video explanation for this project can be found [here](https://youtu.be/8NIkwnwVhhc).**
 
