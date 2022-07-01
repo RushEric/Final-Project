@@ -1,5 +1,7 @@
 # Final Project
 
+Anish Das, Joseph Masri, Miracle Sanchez, Aiden Schulman Zicheng Yang
+
 #### Store
 
 - **The code and white-paper can be found [here](Store/).**
