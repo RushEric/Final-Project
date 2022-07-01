@@ -1,5 +1,3 @@
-package project;
-
 public class Waiter implements Runnable
 {
 	private Customer serving = null;

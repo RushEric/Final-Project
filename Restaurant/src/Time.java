@@ -1,6 +1,4 @@
-package project;
-
-public class Time implements Runnable 
+public class Time implements Runnable
 {
 	private static int time = 0;
 	

@@ -1,6 +1,4 @@
-package project;
-
-public class Chef 
+public class Chef
 {
 	private static Menu dish = null;
 

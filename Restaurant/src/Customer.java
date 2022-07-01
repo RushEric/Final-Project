@@ -1,4 +1,3 @@
-package project;
 import java.util.*;
 
 public class Customer implements Runnable

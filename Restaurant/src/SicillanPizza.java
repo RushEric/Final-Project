@@ -1,11 +1,9 @@
-package project;
-
-public class ChicagoPizza <C extends Character, S extends String> extends Menu
+public class SicillanPizza <C extends Character, S extends String> extends Menu
 {
 	private int multi = 1;
 	
 	
-	public ChicagoPizza(C size)
+	public SicillanPizza(C size)
 	{
 		if(size == 'L')
 			multi = 3;
@@ -13,18 +11,22 @@ public class ChicagoPizza <C extends Character, S extends String> extends Menu
 			multi = 2;
 	}
 	
-	public ChicagoPizza(S size)
+	
+	public SicillanPizza(S size)
 	{
 		if(size == "LARGE")
 			multi = 3;
 		else if(size == "MEDIUM")
 			multi = 2;
 	}
-
 	
+	
+
 	@Override
 	public int getTime()
 	{
-		return 480 * multi;
+		return 600 * multi;
 	}
+
+	
 }

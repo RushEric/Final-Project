@@ -1,11 +1,10 @@
-package project;
-
-public class NewYorkPizza <C extends Character, S extends String> extends Menu
+public class NepolitanPizza <C extends Character, S extends String> extends Menu
 {
+
 	private int multi = 1;
 	
 	
-	public NewYorkPizza(C size)
+	public NepolitanPizza(C size)
 	{
 		if(size == 'L')
 			multi = 3;
@@ -13,7 +12,7 @@ public class NewYorkPizza <C extends Character, S extends String> extends Menu
 			multi = 2;
 	}
 	
-	public NewYorkPizza(S size)
+	public NepolitanPizza(S size)
 	{
 		if(size == "LARGE")
 			multi = 3;
@@ -23,9 +22,10 @@ public class NewYorkPizza <C extends Character, S extends String> extends Menu
 	
 	
 	@Override
-	public int getTime() 
+	public int getTime()
 	{
-		return 300 * multi;
+		return 1200 * multi;
 	}
-	
+
+
 }

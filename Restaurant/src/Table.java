@@ -1,6 +1,4 @@
-package project;
-
-public class Table 
+public class Table
 {
 	private static boolean [] tables = new boolean[5];
 	private static boolean busy = false;
