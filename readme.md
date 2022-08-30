@@ -1,6 +1,6 @@
 # Final Project
 
-Anish Das, Joseph Masri, Miracle Sanchez, Aiden Schulman Zicheng Yang
+Anish Das, Joseph Masri, Miracle Sanchez, Aiden Schulman, Zicheng Yang
 
 #### Store
 
